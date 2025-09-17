@@ -16,7 +16,7 @@ public class BookController {
 	        return "bookRegister"; // maps to bookReg.html in templates
 	    }
 	 
-	 @GetMapping("/available_books")
+      	 @GetMapping("/available_books")
 	 public String getAllBook() {
 		 return "bookList";
 	 }
